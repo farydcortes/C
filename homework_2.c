@@ -14,10 +14,10 @@ scanf("%i", &k);
   	
   while(count <= k){
     sr = sqrt(n); 
-    flag = 0; //Tengo como si ya tuviera un numero primo
+    flag = 0; 
     for(i=2; i<= sr; i++){
       if(n%i==0){
-        flag = 1; //Si no es primo flag = 1 y no se cumple el siguiente if
+        flag = 1; 
         break;
       }
    
@@ -35,10 +35,10 @@ scanf("%i", &k);
  		printf("%d", a[b]);
  		
 	 }
-      count++; //Conteo de primos
+      count++;
     }
     
-    n++; //Siguiente numero
+    n++;
     
   } 
 }

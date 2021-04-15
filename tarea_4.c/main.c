@@ -1,3 +1,4 @@
+/*  para realizar esta tarea me base en los ejhemplos usados en el libro*/
 #include <stdio.h>
 #include <stdlib.h> /* for atof() */
 #include <ctype.h>

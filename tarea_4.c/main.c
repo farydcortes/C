@@ -1,4 +1,4 @@
-/*  para realizar esta tarea me base en los ejhemplos usados en el libro*/
+/*  para realizar esta tarea me base en los ejemplos usados en el ibro*/
 #include <stdio.h>
 #include <stdlib.h> /* for atof() */
 #include <ctype.h>

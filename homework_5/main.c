@@ -10,8 +10,8 @@
 
 #define COLUMNS 10              //definimos la cantidad de columnas para el tablero
 #define ROWS 10                 //definimos la cantidad de filas para el tablero
-#define ESPACIO_SIN_DESCUBRIR '#'
-#define ESPACIO_DESCUBIERTO '*'
+#define ESPACIO_SIN_DESCUBRIR '.'
+#define ESPACIO_DESCUBIERTO ' '
 #define MINA '*'
 #define CANTIDAD_MINAS 5
 

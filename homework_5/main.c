@@ -13,7 +13,7 @@
 #define ESPACIO_SIN_DESCUBRIR '.'
 #define ESPACIO_DESCUBIERTO ' '
 #define MINA '*'
-#define CANTIDAD_MINAS 5
+#define CANTIDAD_MINAS 20
 
 int main() {
     printf("---MINESWEEPER---\n");

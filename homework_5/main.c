@@ -42,7 +42,7 @@ int main() {
       printf("You have already opened this box\n");
     } else if (status == ERROR_MINA_ENCONTRADA) {
       printf("You've lost\n");
-      printf("Try again");
+      printf("Try again\n");
       deberiaMostrarMinas = 1;
     }
   }

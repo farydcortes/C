@@ -13,7 +13,7 @@
 #define ESPACIO_SIN_DESCUBRIR '#'
 #define ESPACIO_DESCUBIERTO '+'
 #define MINA '*'
-#define CANTIDAD_MINAS 5
+#define CANTIDAD_MINAS 20
 #define DEBUG 0  // IF YOU PUT 1 YOU CAN SEE THE MINES
 
 int obtenerMinasCercanas(int fila, int columna, char tablero[ROWS][COLUMNS]) {

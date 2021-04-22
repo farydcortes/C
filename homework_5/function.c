@@ -76,25 +76,46 @@ void colocarMinasAleatoriamente(char tablero[ROWS][COLUMNS]) { //PUT THE MINE IN
 }
 
 void imprimirEncabezado() {
-  printf("      ");
+  printf("|     ");
   char letra = 'A';
   int l;
   for (l = 0; l < COLUMNS; l++) {
-    printf(" %c ", letra);
+    printf("| %c ", letra);
     letra++;
   }
   printf("\n");
 }
-
 char enteroACaracter(int numero) { //CHANGE THE INT INTO CHAR
   return numero + '0';
 }
+void imprimirSeparadorEncabezado() {
+  int m;
+  for (m = 0; m <= ROWS; m++) {
+    printf("----");
+    if (m + 2 == ROWS) {
+      printf("-");
+    }
+  }
+  printf("\n");
+}
+
+void imprimirSeparadorFilas() {
+  int m;
+  for (m = 0; m <= ROWS; m++) {
+    printf("+---");
+    if (m == ROWS) {
+      printf("+");
+    }
+  }
+  printf("\n");
+}
+
 
 void imprimirTablero(char tablero[ROWS][COLUMNS], int deberiaMostrarMinas) {
   imprimirEncabezado();
   int numero = 1, l, m;
   for (l = 0; l < ROWS; l++) {
-    printf(" %2d   ", numero);
+    printf("|%2d   ", numero);
     numero++;
     char letra = 'A';
     for (m = 0; m < COLUMNS; m++) {
@@ -108,9 +129,9 @@ void imprimirTablero(char tablero[ROWS][COLUMNS], int deberiaMostrarMinas) {
       }
       if (numeroActual == MINA && (DEBUG || deberiaMostrarMinas)) 
         verdaderonum = MINA;
-    printf(" %c ", verdaderonum);
+    printf("| %c ", verdaderonum);
     }
-    printf("\n");
+    printf("|\n");
   }
 }
 

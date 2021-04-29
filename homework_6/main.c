@@ -21,15 +21,13 @@ node* insert(char* u, char* p, node* pos, int d) {
           pos->password = p;
           printf ("Se ha registrado al usuario <%s> con la contraseña <%s>\n\n", u, p);
       }
-    } else if (strcmp(pos->user, u)>0) { // value is smaller     si pos->value > value
-      /*printf("Registro algo menor\n\n");*/
+    } else if (strcmp(pos->user, u)>0) {
       temp = insert(u, p, pos->leftChild, d + 1);
       if (pos->leftChild == NULL) {
 	pos->leftChild = temp;
       }
     } else if (strcmp(pos->user, u)<0){
-      temp = insert(u, p, pos->rightChild, d + 1); // value is larger
-      /*printf("Registro algo mayor\n\n");*/
+      temp = insert(u, p, pos->rightChild, d + 1);
       if (pos->rightChild == NULL) {
 	pos->rightChild = temp;
       }
@@ -152,7 +150,7 @@ int main() {
   return 0;
 }
 
-int saca() { // Function that give us the line, modification of a SATU ELISA SCHAEFFER  code Longest2.c nocomment.c
+int saca()
           
   extern char linea[];
   int c, i = 0;

@@ -1,0 +1,21 @@
+The user <jake> with the pin <1> must enter at: 12:0 and must work for <30 segundos> the days:
+Monday Wednesday Friday 
+
+The user <Faryd> with the pin <2> must enter at: 13:0 and must work for <50 segundos> the days:
+Sunday Monday Tuesday Wednesday Thursday Friday Saturday 
+
+The user <Jeremy> with the pin <3> must enter at: 12:30 and must work for <40 segundos> the days:
+Wednesday Thursday Friday Saturday 
+
+The user <Oriana> with the pin <4> must enter at: 13:30 and must work for <45 segundos> the days:
+Sunday Monday Tuesday Saturday 
+
+The user <Elizabeth> with the pin <5> must enter at: 14:0 and must work for <50 segundos> the days:
+Monday Tuesday Friday 
+
+The user <zucaritas> with the pin <6> must enter at: 12:0 and must work for <60 segundos> the days:
+Monday Wednesday Friday 
+
+The user <noobmaster69> with the pin <7> must enter at: 8:0 and must work for <40 segundos> the days:
+Tuesday Thursday Friday Saturday 
+

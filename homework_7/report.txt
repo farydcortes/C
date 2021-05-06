@@ -1,0 +1,23 @@
+Report created on: Jueves 6/5/2021
+the user with pin <1> entered at: <0:20:14> the day: <6/5/2021> worked 25 seconds
+the user with pin <2> entered at: <0:20:46> the day: <6/5/2021> worked 28 seconds
+the user with pin <3> entered at: <0:21:20> the day: <6/5/2021> worked 42 seconds
+the user with pin <4> entered at: <0:22:12> the day: <6/5/2021> worked 60 seconds
+the user with pin <5> entered at: <0:23:30> the day: <6/5/2021> worked 14 seconds
+the user with pin <2> entered at: <0:23:47> the day: <6/5/2021> worked 21 seconds
+Report created on: Jueves 6/5/2021
+the user with pin <1> entered at: <0:47:32> the day: <6/5/2021> worked 10 seconds
+Report created on: Jueves 6/5/2021
+the user with pin <6> entered at: <1:15:12> the day: <6/5/2021> worked 9 seconds
+Report created on: Thursday 6/5/2021
+the user with pin <2> entered at: <1:34:41> the day: <6/5/2021> worked 15 seconds
+the user with pin <1> entered at: <1:34:36> the day: <6/5/2021> worked 21 seconds
+the user with pin <4> entered at: <1:34:45> the day: <6/5/2021> worked 14 seconds
+the user with pin <3> entered at: <1:34:43> the day: <6/5/2021> worked 18 seconds
+the user with pin <5> entered at: <1:34:48> the day: <6/5/2021> worked 21 seconds
+the user with pin <6> entered at: <1:34:50> the day: <6/5/2021> worked 21 seconds
+the user with pin <1> entered at: <1:35:17> the day: <6/5/2021> worked 13 seconds
+Report created on: Thursday 6/5/2021
+the user with pin <7> entered at: <1:40:58> the day: <6/5/2021> worked 4 seconds
+Report created on: Thursday 6/5/2021
+the user with pin <1> entered at: <1:48:40> the day: <6/5/2021> worked 2 seconds

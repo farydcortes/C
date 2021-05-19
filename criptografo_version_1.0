@@ -1,4 +1,7 @@
-/* - falla el selector para los modos(una ves que ingresas que modo quieres usar, no te deja escribir el texto para encritrlo, se salta esa parte).
+/* notas de la version 1.0:
+   -solo se pueden ingresar caracteres como el abecedadrio (A-Z) y numeros (0-9)
+   -el resultado obtenido por cada modo arrojara el texto convertido separada letra a letra por espacios en blanco, los espacios en blanco ingresados seran remplazados por "/"
+   - falla el selector para los modos(una ves que ingresas que modo quieres usar, no te deja escribir el texto para encritrlo, se salta esa parte).
    -si introduciomos uno de los modos directamente, si trabajan correctamente (a excepcion del binario).
 */
 
@@ -19,19 +22,19 @@ struct crip
 
 struct crip codigo [37];  //aqui defino el total de caracteres que se pueden encriptar
 
-void iniciarmorse ();
+void iniciarmorse (); // estos son los modos en los que puede trabajar el programa de encriptado
 void iniciarcesar ();
 void iniciarbinario ();
 char *getcode(char *cadena);
 
 int main ()
 {
-	int option=0;
+	int option=0; // se define la opcion en 0
 	char txt [100];
 	printf ("Welcome");
 	printf("\nWith what method do you want to encrypt?");
 	printf("\n1- Clave morse\n2- Cifrado Cesar\n3- Binario\n"); //en esta parte se seleccionan los modos
-/*	scanf("%d", &option);  //pero al llegar aqui se salta directamente a esta parte 
+/*	scanf("%d", &option);  // en esta parte se ingresa el modo que quieres usar
 	
 	if ( option == 1)	
 	{
@@ -51,10 +54,10 @@ int main ()
 
 	}*/
 		iniciarbinario();
-		puts("Enter the text to encrypt: "); // a esta
+		puts("Enter the text to encrypt: "); // aqui se ingresa el texto
 		gets(txt);
 	
-		puts("\nYour text has been encrypted\n"); //luego se supone que esta te arroja la palabra encriptada, pero por lo mismo que se salta el modo arroja un mugrterote
+		puts("\nYour text has been encrypted\n"); //luego se supone que esta te arroja la palabra encripta.
 		printf("%s", getcode(txt));
 	
 	return ;
@@ -97,12 +100,12 @@ char *getcode(char *cadena)
 	return (crip);
 	
 	
-	else
+	else   		//este error solo se imprime si se ingresan caracteres incorrectos
 	return ("Error");
 	
 }
 
-void iniciarmorse ()  // y bueno aqui estan todos los caracteres con su forma encriptada ya para sustituir dependiendo de que modo se escoja unu
+void iniciarmorse ()  // y bueno aqui estan todos los caracteres con su forma encriptada ya para sustituir dependiendo de que modo se escoja
 {
 	codigo[0].letra= 'A';
 	strcpy(codigo[0].codigo,"._");
@@ -427,34 +430,34 @@ void iniciarbinario()
 	strcpy(codigo[25].codigo,"01011010");
 	
 	codigo[26].letra= '1';
-	strcpy(codigo[26].codigo,"4");
+	strcpy(codigo[26].codigo,"0001");
 	
 	codigo[27].letra= '2';
-	strcpy(codigo[27].codigo,"5");
+	strcpy(codigo[27].codigo,"0010");
 	
 	codigo[28].letra= '3';
-	strcpy(codigo[28].codigo,"6");
+	strcpy(codigo[28].codigo,"0011");
 	
 	codigo[29].letra= '4';
-	strcpy(codigo[29].codigo,"7");
+	strcpy(codigo[29].codigo,"0100");
 	
 	codigo[30].letra= '5';
-	strcpy(codigo[30].codigo,"8");
+	strcpy(codigo[30].codigo,"0101");
 	
 	codigo[31].letra= '6';
-	strcpy(codigo[31].codigo,"9");
+	strcpy(codigo[31].codigo,"0110");
 	
 	codigo[32].letra= '7';
-	strcpy(codigo[32].codigo,"0");
+	strcpy(codigo[32].codigo,"0111");
 	
 	codigo[33].letra= '8';
-	strcpy(codigo[33].codigo,"1");
+	strcpy(codigo[33].codigo,"1000");
 	
 	codigo[34].letra= '9';
-	strcpy(codigo[34].codigo,"2");
+	strcpy(codigo[34].codigo,"1001");
 	
 	codigo[35].letra= '0';
-	strcpy(codigo[35].codigo,"3");
+	strcpy(codigo[35].codigo,"0000");
 	
 	codigo[36].letra= ' ';
 	strcpy(codigo[36].codigo,"/");

@@ -1,5 +1,5 @@
-/* - falla el selector para los modos(una ves que ingresas que modo quieres usar, no te deja escribir el texto para encritrlo, se salta esa parte)
-   - falla en el modo binario 
+/* - falla el selector para los modos(una ves que ingresas que modo quieres usar, no te deja escribir el texto para encritrlo, se salta esa parte).
+   -si introduciomos uno de los modos directamente, si trabajan correctamente (a excepcion del binario).
 */
 
 

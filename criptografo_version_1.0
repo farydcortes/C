@@ -1,3 +1,8 @@
+/* - falla el selector para los modos(una ves que ingresas que modo quieres usar, no te deja escribir el texto para encritrlo, se salta esa parte)
+   - falla en el modo binario 
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -210,7 +215,7 @@ void iniciarmorse ()  // y bueno aqui estan todos los caracteres con su forma en
 	codigo[36].letra= ' ';
 	strcpy(codigo[36].codigo,"/");
 	
-	codigo[37].letra= 'Ñ';
+	codigo[37].letra= 'Ã‘';
 	strcpy(codigo[37].codigo,"__.__");
 	
 	
@@ -255,7 +260,7 @@ void iniciarcesar()
 	strcpy(codigo[10].codigo,"N");
 	
 	codigo[11].letra= 'L';
-	strcpy(codigo[11].codigo,"Ñ");
+	strcpy(codigo[11].codigo,"Ã‘");
 	
 	codigo[12].letra= 'M';
 	strcpy(codigo[12].codigo,"O");
@@ -332,7 +337,7 @@ void iniciarcesar()
 	codigo[36].letra= ' ';
 	strcpy(codigo[36].codigo,"/");
 	
-	codigo[37].letra= 'Ñ';
+	codigo[37].letra= 'Ã‘';
 	strcpy(codigo[37].codigo,"C");
 	
 
@@ -454,7 +459,7 @@ void iniciarbinario()
 	codigo[36].letra= ' ';
 	strcpy(codigo[36].codigo,"/");
 	
-	codigo[37].letra= 'Ñ';
+	codigo[37].letra= 'Ã‘';
 	strcpy(codigo[37].codigo,"11010001");
 	
 

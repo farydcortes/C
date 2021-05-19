@@ -34,7 +34,7 @@ int main ()
 	printf ("Welcome");
 	printf("\nWith what method do you want to encrypt?");
 	printf("\n1- Clave morse\n2- Cifrado Cesar\n3- Binario\n"); //en esta parte se seleccionan los modos
-/*	scanf("%d", &option);  // en esta parte se ingresa el modo que quieres usar
+	scanf("%d", &option);  // en esta parte se ingresa el modo que quieres usar
 	
 	if ( option == 1)	
 	{
@@ -52,8 +52,8 @@ int main ()
 	{
 		iniciarbinario();
 
-	}*/
-		iniciarbinario();
+	}
+		//iniciarbinario();  si quieres ingresar un modo directo, solo pon en esta liniea el nombre del modo, como se ve al inicio de esta y pon la seleccion de modos como comentario usando /**/
 		puts("Enter the text to encrypt: "); // aqui se ingresa el texto
 		gets(txt);
 	

@@ -21,8 +21,7 @@ for the encryption methods we will have the following:
 - Inverse cesar encryption
 - Aerenautic phonetic alphabet
 
-In the same way, the cryptographer will work in the opposite way, 
-so that we can decrypt a word by selecting the encryption method.
+If you want to see the video of the execution of the program, [click here](https://youtu.be/dxkfIs7pUQo)
 
 ### Program instructions
 the program can run in the GDB online compiler
@@ -107,5 +106,7 @@ through this structure we handle the codes.
 * [Brian W. Kernighan, Dennis M. Ritchie - The C Programming Language, Second Edition (1988).](http://cslabcms.nju.edu.cn/problem_solving/images/c/cc/The_C_Programming_Language_%282nd_Edition_Ritchie_Kernighan%29.pdf)
 * Examples made in class.
 * [c-refcard.](https://users.ece.utexas.edu/~adnan/c-refcard.pdf)
+
+
 
 

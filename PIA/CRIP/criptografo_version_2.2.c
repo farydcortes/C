@@ -9,7 +9,7 @@
       \  \  ___ \  \__\  \ \  \__\ \ \  \_\ \ \  \__\ \ \   __\  \  \__\  \
        \  \_\  \ \   _   _\ \   _   \ \   ___\ \   _   \ \  \____ \   _   _\
         \_______\ \__\ \_\   \__\ \__\ \__\     \__\ \__\ \______\ \__\ \_\
-       	 				by: Jeremy Faryd Cortes Munoz 1910064 
+       	 									by: Jeremy Faryd Cortes Munoz 1910064 
 */
 
 #include "crip.h" //we call the library that contains the structures
@@ -23,7 +23,7 @@ void main ()
 	while (option == 0){
 	printf ("Welcome\n\n"); //Welcome message
 	printf ("ENCRYPTION METHODS:\n");
-	printf("\n1- MORSE CODE\n2- CESAR ENCRYPTION\n3- INVERSE CESAR ENCRYPTION\n4- AERENAUTIC PHONETIC ALPHABET");//method menu 
+	printf("\n1- MORSE CODE\n2- CESAR ENCRYPTION\n3- CESAR INVERSE ENCRYPTION\n4- AERENAUTIC PHONETIC ALPHABET");//method menu 
 	printf("\n\nWith what method do you want to encrypt?: ");
 	scanf("%d", &option);   //the entered value is collected to select the method
 	}

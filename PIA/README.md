@@ -1,4 +1,4 @@
-# cryptographer
+# Cryptographer
 
 For this new project, it was thought to make a cryptographer, some will wonder what is that?
 well a cryptographer roughly serves to encode words, links or anything "sensitive" 

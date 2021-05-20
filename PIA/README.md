@@ -9,7 +9,7 @@ that you do not want others to know.
 * [Program instructions](#program-instructions)
 * [Functios](#Functions)
 * [Structs](#Structs)
-* [Contact](#Contact)
+* [Program](#Program)
 <!-- * [License](#license) -->
 
 ### General functions
@@ -58,7 +58,50 @@ struct crip {
 	 
 };
 ```
-through this structure we handle the codes
+through this structure we handle the codes.
+
+### Program
+
+#### interface
+
+<p align="center">
+<img src="https://github.com/farydcortes/C/blob/main/PIA/Interface.PNG">
+</p>
+
+
+#### Outputs
+
+<p align="center">
+<img src="https://github.com/farydcortes/C/blob/main/PIA/morse.PNG">
+</p>
+
+* Morse code output example
+
+
+
+<p align="center">
+<img src="https://github.com/farydcortes/C/blob/main/PIA/csr.PNG">
+</p>
+
+* Output example using cesar encryption
+
+
+
+<p align="center">
+<img src="https://github.com/farydcortes/C/blob/main/PIA/cesari.PNG">
+</p>
+
+* Output example using reverse caesar cipher
+
+
+
+<p align="center">
+<img src="https://github.com/farydcortes/C/blob/main/PIA/aph.PNG">
+</p>
+
+* Example of output using the aeronautical phonetic alphabet method
+
+
 ## References
 
 * [Brian W. Kernighan, Dennis M. Ritchie - The C Programming Language, Second Edition (1988).](http://cslabcms.nju.edu.cn/problem_solving/images/c/cc/The_C_Programming_Language_%282nd_Edition_Ritchie_Kernighan%29.pdf)

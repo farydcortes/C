@@ -9,7 +9,7 @@
       \  \  ___ \  \__\  \ \  \__\ \ \  \_\ \ \  \__\ \ \   __\  \  \__\  \
        \  \_\  \ \   _   _\ \   _   \ \   ___\ \   _   \ \  \____ \   _   _\
         \_______\ \__\ \_\   \__\ \__\ \__\     \__\ \__\ \______\ \__\ \_\
-       	 									by: Jeremy Faryd Cortes Munoz 1910064 
+       	 				by: Jeremy Faryd Cortes Munoz 1910064 
 */
 
 #include "crip.h" //we call the library that contains the structures

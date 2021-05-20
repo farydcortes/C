@@ -104,7 +104,6 @@ through this structure we handle the codes.
 ## References
 
 * [Brian W. Kernighan, Dennis M. Ritchie - The C Programming Language, Second Edition (1988).](http://cslabcms.nju.edu.cn/problem_solving/images/c/cc/The_C_Programming_Language_%282nd_Edition_Ritchie_Kernighan%29.pdf)
-* Examples made in class.
 * [c-refcard.](https://users.ece.utexas.edu/~adnan/c-refcard.pdf)
 * [Aerenautic phonetic alphabet](https://www.entornoturistico.com/alfabeto-aeronautico-2020/)
 * [Morse code](https://www.ecured.cu/C%C3%B3digo_Morse)

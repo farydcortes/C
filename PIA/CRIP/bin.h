@@ -466,7 +466,7 @@ void iniciarrevcesar(){
 
 }
 
- void iniciararevlphabet () 
+/* void iniciararevlphabet () 
 {
 	codigo[0].letra= 'ALPHA';
 	strcpy(codigo[0].codigo,"A");
@@ -581,4 +581,4 @@ void iniciarrevcesar(){
 	
 
 }
-
+*/

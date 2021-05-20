@@ -17,7 +17,7 @@ void iniciarmorse ();		//with these functions we initialize the code, one for ea
 void iniciarcesar ();
 void iniciarrevcesar ();
 void iniciaralphabet();
-void iniciararevlphabet ();
+//void iniciararevlphabet (); test function
 char *getcode(char *cadena);  //function to get the code
 
 

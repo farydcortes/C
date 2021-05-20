@@ -9,8 +9,6 @@ Once I have understood this, I will talk about what will make up my program.
 for the encryption methods we will have the following:
 
 - Morse code
-- binary code
-- hex code
 - cesar encryption
 - phonetic alphabet
 
